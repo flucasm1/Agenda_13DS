@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-
+/*Atua em todo o corpo do html */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #141e30, #243b55);
@@ -22,6 +22,7 @@ body {
     max-width: 1400px;
     margin: 0 auto;
 }
+/* classe para seções dentro do corpo*/
 .secao {
     background: rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(10px);
@@ -39,7 +40,7 @@ body {
     margin-bottom: 25px;
     color: #00d4ff;
 }
-
+/* Atua sobre legendas das imagens */
 .legenda {
     text-align: center;
     font-size: 0.95rem;
